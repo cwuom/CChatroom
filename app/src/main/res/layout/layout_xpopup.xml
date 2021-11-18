@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cwuom.chatroom.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="fitXY"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_hi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Hi, 新用户!"
+        android:textColor="#A3D4FA"
+        android:textSize="@dimen/sp_40"
+        android:textStyle="bold"
+        android:translationX="@dimen/dp_81"
+        android:translationY="@dimen/dp_95"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             欢迎使用CChat！\n开发者(CWUOM)-2594748568"
+        android:textColor="#FF5722"
+        android:textSize="@dimen/sp_25"
+        android:translationX="@dimen/dp_15"
+        android:translationY="@dimen/dp_200"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我们:\n  尽可能的保护你的隐私与聊天数据安全, 我们不会随意删除您创建的文件、团队... 您可以在这里随意的说话，没有举报！因为这是一个没有规矩的聊天工具。(如果哪天无法访问，就是我们跑路了*_*)"
+        android:textColor="#000000"
+        android:textSize="@dimen/sp_20"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="323dp"
+        android:textStyle="bold"
+        android:translationX="0dp"
+        android:translationY="@dimen/dp_320"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="653dp"
+        android:text="我知道了，请继续"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@drawable/button_bg"
+        android:id="@+id/btn_ok"
+        tools:ignore="MissingConstraints"
+        android:translationX="0dp"
+        android:translationY="653dp"
+        />
+
+</RelativeLayout>
